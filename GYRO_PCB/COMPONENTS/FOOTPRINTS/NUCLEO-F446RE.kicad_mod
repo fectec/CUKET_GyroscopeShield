@@ -2028,4 +2028,15 @@
 		(uuid "c4183dee-b9c7-4521-9a23-96484eb4c9c0")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/COMPONENTS/3D/NUCLEO-F446RE.step"
+		(offset
+			(xyz 0 0 -12.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
