@@ -1609,6 +1609,193 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "LED:SFH4346"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0.508 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SFH4346"
+				(at -1.016 -2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LED_THT:LED_D3.0mm_IRBlack"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A500/SFH4346.pdf"
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Infrared LED , 3mm LED package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "opto IR LED"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*3.0mm*IRBlack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SFH4346_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.413 1.651) (xy -0.889 3.175) (xy -0.889 2.667) (xy -0.889 3.175) (xy -1.397 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.143 1.651) (xy 0.381 3.175) (xy 0.381 2.667)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy -2.54 0) (xy 0 -1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 3.175) (xy -0.127 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SFH4346_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LM2596_Module:LM2596_Mod"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1738,89 +1925,6 @@
 								(size 0.508 0.508)
 							)
 						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 			)
@@ -3712,7 +3816,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "IMPORTANT: E5V is the external power supply\nIf this order is not respected, the board / PC might be damaged\n\n1. Connect the jumper between pin 2 and pin 3 of JP5\n2. Check that JP1 is removed\n3. Connect the external power source to E5V (CN7 pin 6) - Already handled by the PCB\nUse the Power Terminal\n4. Power on the external power supply ()\n5. Check that LD3 is turned ON\n6. Connect the PC to USB connector CN1"
+	(text "IMPORTANT: E5V is the external power supply\nIf this order is not respected, the board / PC might be damaged\n\n1. Connect the jumper between pin 2 and pin 3 of JP5\n2. Check that JP1 is removed\n3. Connect the external power source to E5V (CN7 pin 6) - Already handled by the PCB\nUse the Power Terminal\n4. Power on the external power supply (7.4V, 2 Li-Ion batteries)\n5. Check that LD3 is turned ON\n6. Connect the PC to USB connector CN1"
 		(exclude_from_sim no)
 		(at 98.552 32.004 0)
 		(effects
@@ -3874,6 +3978,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 67.31) (xy 27.94 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29702a35-2f28-4b42-bfb3-d55487d80849")
+	)
+	(wire
+		(pts
 			(xy 245.11 104.14) (xy 246.38 104.14)
 		)
 		(stroke
@@ -3974,6 +4088,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 55.88) (xy 243.84 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f03d727-a731-436a-82ce-c4e17a5c105f")
+	)
+	(wire
+		(pts
 			(xy 193.04 85.09) (xy 193.04 86.36)
 		)
 		(stroke
@@ -4011,6 +4135,16 @@
 			(type default)
 		)
 		(uuid "6ead0235-1b74-430f-b816-b5377c6d3651")
+	)
+	(wire
+		(pts
+			(xy 30.48 67.31) (xy 33.02 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b461073-754c-4c29-bb7e-4ccea8197acb")
 	)
 	(wire
 		(pts
@@ -4071,6 +4205,16 @@
 			(type default)
 		)
 		(uuid "aa15983e-92ac-4e91-87c5-7fbb24b940c5")
+	)
+	(wire
+		(pts
+			(xy 81.28 55.88) (xy 81.28 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab3eaf8e-79fe-4bfe-bcce-67ccaa8cabc4")
 	)
 	(wire
 		(pts
@@ -4144,6 +4288,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 55.88) (xy 234.95 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c60c4e5c-2d44-4efe-97e0-295061bdfef5")
+	)
+	(wire
+		(pts
 			(xy 83.82 165.1) (xy 81.28 165.1)
 		)
 		(stroke
@@ -4204,6 +4358,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 59.69) (xy 246.38 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfe20464-3a59-42c6-9a4b-84842a91417d")
+	)
+	(wire
+		(pts
 			(xy 158.75 88.9) (xy 158.75 96.52)
 		)
 		(stroke
@@ -4211,6 +4375,16 @@
 			(type default)
 		)
 		(uuid "e02f9370-6681-4d0c-87bd-4d30b4947f08")
+	)
+	(wire
+		(pts
+			(xy 33.02 69.85) (xy 25.4 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e31407ef-b700-4666-b400-461d7894dee6")
 	)
 	(wire
 		(pts
@@ -4251,6 +4425,50 @@
 			(type default)
 		)
 		(uuid "fdd62eb5-4fbb-4929-866c-5ca55dda2b2c")
+	)
+	(global_label "LED"
+		(shape input)
+		(at 124.46 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0230f9f6-45bb-4cd3-8388-61def25c1129")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.8923 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED"
+		(shape input)
+		(at 227.33 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "02324558-be6e-45e5-a0a5-82c29a7c5bfa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.8977 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "NUCLEO_E5V"
 		(shape input)
@@ -4566,7 +4784,7 @@
 	)
 	(global_label "BAT"
 		(shape input)
-		(at 34.29 64.77 180)
+		(at 25.4 67.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4578,7 +4796,7 @@
 		)
 		(uuid "e2f7d17b-e777-4c25-838c-c5b21a1775ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.5026 64.77 0)
+			(at 18.6126 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4590,7 +4808,7 @@
 	)
 	(global_label "NUCLEO_E5V"
 		(shape input)
-		(at 83.82 62.23 90)
+		(at 81.28 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4598,16 +4816,16 @@
 				(thickness 0.254)
 				(bold yes)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "fb34dcf3-0e07-44b1-a65c-4bb456b631c3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.82 46.9155 90)
+			(at 65.9655 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4680,72 +4898,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 233.68 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0c2a032c-f033-4162-b78b-aab5ea1bab9a")
-		(property "Reference" "H3"
-			(at 236.22 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 236.22 140.9699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO14580"
-			(at 233.68 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 233.68 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 233.68 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "GYRO_PCB"
-				(path "/0bddacac-ad2f-4aa4-b051-0a05ac7aff99"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
-		(at 88.9 62.23 0)
+		(at 86.36 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4754,7 +4908,7 @@
 		(fields_autoplaced yes)
 		(uuid "126b79c2-0faf-40fd-9a2b-c2c40297e881")
 		(property "Reference" "#PWR015"
-			(at 88.9 66.04 0)
+			(at 86.36 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4763,7 +4917,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 88.9 57.15 0)
+			(at 86.36 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4771,7 +4925,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 62.23 0)
+			(at 86.36 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4780,7 +4934,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 62.23 0)
+			(at 86.36 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4789,7 +4943,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 88.9 62.23 0)
+			(at 86.36 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4959,70 +5113,6 @@
 			(project "GYRO_PCB"
 				(path "/0bddacac-ad2f-4aa4-b051-0a05ac7aff99"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 233.68 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22f889c9-93c5-4fd4-859b-4bd477c3f1b4")
-		(property "Reference" "H2"
-			(at 236.22 133.3499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 236.22 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO14580"
-			(at 233.68 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 233.68 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 233.68 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "GYRO_PCB"
-				(path "/0bddacac-ad2f-4aa4-b051-0a05ac7aff99"
-					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -5839,35 +5929,100 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 233.68 144.78 0)
+		(lib_id "LED:SFH4346")
+		(at 238.76 55.88 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8100b51e-191e-4edd-b18c-493d5c89b269")
-		(property "Reference" "H4"
-			(at 236.22 143.5099 0)
+		(uuid "7aefefb0-11f7-4ae1-97b6-3c3f18b57d7d")
+		(property "Reference" "D1"
+			(at 239.903 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 236.22 146.0499 0)
+		(property "Value" "SFH4346"
+			(at 239.903 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO14580"
-			(at 233.68 144.78 0)
+		(property "Footprint" "LED_THT:LED_D3.0mm_IRBlack"
+			(at 238.76 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A500/SFH4346.pdf"
+			(at 240.03 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Infrared LED , 3mm LED package"
+			(at 238.76 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "46ec0228-990a-4e09-a462-62843def938a")
+		)
+		(pin "1"
+			(uuid "2b5e61c0-166e-4357-837f-e4c9f2a630e9")
+		)
+		(instances
+			(project ""
+				(path "/0bddacac-ad2f-4aa4-b051-0a05ac7aff99"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 231.14 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82f1d89e-db35-4285-a4a7-8b34a97d95c2")
+		(property "Reference" "R8"
+			(at 231.14 53.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 231.14 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 231.14 57.658 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5876,7 +6031,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 233.68 144.78 0)
+			(at 231.14 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5884,19 +6039,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 233.68 144.78 0)
+		(property "Description" "Resistor"
+			(at 231.14 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "0f9a3bb6-de39-4c4f-97f6-d09e5a116003")
+		)
+		(pin "2"
+			(uuid "a71a4e4d-c93f-432a-a8e0-6ddf4f7a018d")
 		)
 		(instances
 			(project "GYRO_PCB"
 				(path "/0bddacac-ad2f-4aa4-b051-0a05ac7aff99"
-					(reference "H4")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -5904,7 +6065,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 39.37 64.77 0)
+		(at 38.1 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5913,7 +6074,7 @@
 		(fields_autoplaced yes)
 		(uuid "85210b8f-7450-4d2d-b50b-7e2a5c22b3d8")
 		(property "Reference" "J5"
-			(at 41.91 64.7699 0)
+			(at 40.64 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5922,7 +6083,7 @@
 			)
 		)
 		(property "Value" "Power Terminal - Raw"
-			(at 41.91 67.3099 0)
+			(at 40.64 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5931,7 +6092,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
-			(at 39.37 64.77 0)
+			(at 38.1 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5940,7 +6101,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 64.77 0)
+			(at 38.1 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5949,7 +6110,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 39.37 64.77 0)
+			(at 38.1 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5967,6 +6128,76 @@
 			(project ""
 				(path "/0bddacac-ad2f-4aa4-b051-0a05ac7aff99"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 27.94 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cd2de8b-4835-4912-aac8-03a93011d681")
+		(property "Reference" "J4"
+			(at 33.02 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Switch Bat"
+			(at 33.02 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+			(at 27.94 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 27.94 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ccdd732e-eb56-44fa-a38c-cdba1d79139b")
+		)
+		(pin "1"
+			(uuid "0bae6a64-90d4-439c-bf5f-ad41c38d2e16")
+		)
+		(instances
+			(project "GYRO_PCB"
+				(path "/0bddacac-ad2f-4aa4-b051-0a05ac7aff99"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -6061,7 +6292,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 67.31 0)
+		(at 25.4 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6070,7 +6301,7 @@
 		(fields_autoplaced yes)
 		(uuid "96402f6c-80a0-4f5c-8052-109e2b6b137e")
 		(property "Reference" "#PWR012"
-			(at 34.29 73.66 0)
+			(at 25.4 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6079,7 +6310,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 34.29 72.39 0)
+			(at 25.4 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6087,7 +6318,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 67.31 0)
+			(at 25.4 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6096,7 +6327,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 67.31 0)
+			(at 25.4 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6105,7 +6336,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 67.31 0)
+			(at 25.4 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6452,70 +6683,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 233.68 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a0c618bb-4eba-48f0-8b06-56d107cb3564")
-		(property "Reference" "H1"
-			(at 236.22 128.2699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 236.22 130.8099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO14580"
-			(at 233.68 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 233.68 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 233.68 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/0bddacac-ad2f-4aa4-b051-0a05ac7aff99"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 243.84 76.2 0)
 		(unit 1)
@@ -6642,6 +6809,72 @@
 			(project ""
 				(path "/0bddacac-ad2f-4aa4-b051-0a05ac7aff99"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 246.38 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9631a91-04d6-433d-89d1-dd46f6ebdf5f")
+		(property "Reference" "#PWR014"
+			(at 246.38 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 246.38 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 246.38 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff8e0fd6-2d23-4c47-a953-4e9a02352942")
+		)
+		(instances
+			(project ""
+				(path "/0bddacac-ad2f-4aa4-b051-0a05ac7aff99"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)

@@ -626,27 +626,6 @@
 		(layer "F.Fab")
 		(uuid "cdcb6489-8247-4d6d-8e9c-3d88b57991aa")
 	)
-	(pad "" np_thru_hole circle
-		(at -24.13 -13.32)
-		(size 3 3)
-		(drill 3)
-		(layers "F&B.Cu" "*.SilkS")
-		(uuid "3bbad4e7-66e9-47b9-8fa4-44564498f128")
-	)
-	(pad "" np_thru_hole circle
-		(at 8.89 38.75)
-		(size 3 3)
-		(drill 3)
-		(layers "F&B.Cu" "*.SilkS")
-		(uuid "90133d7c-4960-4e00-8177-bf22e77632ab")
-	)
-	(pad "" np_thru_hole circle
-		(at 24.13 -12.05)
-		(size 3 3)
-		(drill 3)
-		(layers "F&B.Cu" "*.SilkS")
-		(uuid "60172922-4da9-4bc0-8ece-708f997c754a")
-	)
 	(pad "CN7_1" thru_hole rect
 		(at -31.75 -9.51)
 		(size 1.53 1.53)
