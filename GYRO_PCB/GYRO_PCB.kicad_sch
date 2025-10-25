@@ -5954,7 +5954,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm_IRBlack"
+		(property "Footprint" "LED_THT:LED_D5.0mm_IRBlack"
 			(at 238.76 60.325 0)
 			(effects
 				(font
