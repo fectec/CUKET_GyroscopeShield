@@ -139,7 +139,7 @@
 	(net 59 "unconnected-(U1-~{RESET}-PadCN7_14)")
 	(net 60 "unconnected-(U1-U5V-PadCN10_8)")
 	(net 61 "unconnected-(U1-PD2-PadCN7_4)")
-	(net 62 "unconnected-(U1-PC10-PadCN7_1)")
+	(net 62 "PUSH_BUTTON")
 	(net 63 "unconnected-(U1-PC6-PadCN10_4)")
 	(net 64 "unconnected-(U1-PB6-PadCN10_17)")
 	(net 65 "unconnected-(U1-VBAT-PadCN7_33)")
@@ -4513,7 +4513,7 @@
 		(property "Reference" "U1"
 			(at 18.47 35.13 0)
 			(layer "F.SilkS")
-			(uuid "2f6adf00-1143-4a1d-9be6-28df9a66e66c")
+			(uuid "c7683f43-80a8-4884-a81d-2205e82ea95b")
 			(effects
 				(font
 					(size 1 1)
@@ -4524,7 +4524,7 @@
 		(property "Value" "NUCLEO64-F446RE"
 			(at 18.87 37.03 0)
 			(layer "F.SilkS")
-			(uuid "6f92edfd-724a-4833-8c30-a0a746e4cddf")
+			(uuid "585890e1-c7e7-40e4-8841-0d8356e08019")
 			(effects
 				(font
 					(size 1 1)
@@ -4536,7 +4536,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6b6dfcde-3fb0-4d29-a4f7-157bb614a77a")
+			(uuid "b236f269-25a8-4736-af88-9ee0bff29297")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4548,7 +4548,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b2f0fa24-3d0d-4fd1-b3f1-375c9442a522")
+			(uuid "24e8e011-28c3-4a7a-92b0-49bd838dedd8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5143,9 +5143,9 @@
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 62 "unconnected-(U1-PC10-PadCN7_1)")
+			(net 62 "PUSH_BUTTON")
 			(pinfunction "PC10")
-			(pintype "bidirectional+no_connect")
+			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
 			(uuid "c1f0feb4-d7de-4c49-b03c-68fc6c642c0a")
 		)
@@ -6059,6 +6059,248 @@
 			)
 			(rotate
 				(xyz -90 -0 -0)
+			)
+		)
+	)
+	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+		(layer "F.Cu")
+		(uuid "7493a0af-3aaf-4657-a35c-4cfc065d8622")
+		(at 113.95 63.395 90)
+		(descr "Through hole straight socket strip, 1x02, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
+		(tags "Through hole socket strip THT 1x02 2.54mm single row")
+		(property "Reference" "SW1"
+			(at -2.825 1.15 0)
+			(layer "F.SilkS")
+			(uuid "67096c34-bb61-48e5-9423-3fde41fbf9a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 5.31 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24ad33bc-7f38-4cad-b95e-8c20e646f77e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20364005-8f57-492b-bdf2-8fcd2d119f57")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53ea468e-5e52-46cd-9f28-481c840f8b6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/b0cc33ba-7265-42fa-b8ef-0fec4add7c01")
+		(sheetname "/")
+		(sheetfile "GYRO_PCB.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 1.33 -1.33)
+			(end 1.33 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d74114f7-486c-4aa7-a4a5-a831a64157c7")
+		)
+		(fp_line
+			(start 0 -1.33)
+			(end 1.33 -1.33)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "045de26e-b186-45c3-842b-b5dda6d4e859")
+		)
+		(fp_line
+			(start 1.33 1.27)
+			(end 1.33 3.87)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5905e96a-41fe-4062-b3b1-230b77fd694a")
+		)
+		(fp_line
+			(start -1.33 1.27)
+			(end 1.33 1.27)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "47b19433-ebcc-4507-96e4-20b2d6357c6c")
+		)
+		(fp_line
+			(start -1.33 1.27)
+			(end -1.33 3.87)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "749445bf-e4b6-4eeb-b701-7c62ed476a08")
+		)
+		(fp_line
+			(start -1.33 3.87)
+			(end 1.33 3.87)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8c4a4e80-1c50-4da6-982b-0a428e4b3315")
+		)
+		(fp_line
+			(start 1.75 -1.8)
+			(end 1.75 4.3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "759a6ec7-4402-44d0-9168-4d64e3a765a2")
+		)
+		(fp_line
+			(start -1.8 -1.8)
+			(end 1.75 -1.8)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c09349b9-c7eb-4ef1-b766-4a6d10e33183")
+		)
+		(fp_line
+			(start 1.75 4.3)
+			(end -1.8 4.3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "46d96e53-29ed-47e1-8ab3-8d13418c0b01")
+		)
+		(fp_line
+			(start -1.8 4.3)
+			(end -1.8 -1.8)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "98c78526-8e82-4505-aea3-55ddc1bc45fa")
+		)
+		(fp_line
+			(start 0.635 -1.27)
+			(end 1.27 -0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7cf66692-0deb-4069-9a70-4679525807c6")
+		)
+		(fp_line
+			(start -1.27 -1.27)
+			(end 0.635 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a9ace649-e56a-43f0-a664-86ea77dfcbcd")
+		)
+		(fp_line
+			(start 1.27 -0.635)
+			(end 1.27 3.81)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "79e435db-ccb3-4df5-ad0a-1ec30d4a760c")
+		)
+		(fp_line
+			(start 1.27 3.81)
+			(end -1.27 3.81)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d27c2f61-558b-47b6-9200-269ce0b75bf6")
+		)
+		(fp_line
+			(start -1.27 3.81)
+			(end -1.27 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e6b77cbb-f70d-45db-acd6-43564591f09f")
+		)
+		(pad "1" thru_hole rect
+			(at 0 0 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 62 "PUSH_BUTTON")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "c0a63029-f4b3-4868-b061-b9f2cceea1eb")
+		)
+		(pad "2" thru_hole circle
+			(at 0 2.54 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 18 "GND")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "e38c6f33-4270-402b-9156-e849f5e5b319")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x02_P2.54mm_Vertical.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
